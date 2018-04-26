@@ -1,0 +1,25 @@
+{
+  "name": "MySQL-Full-Stack-App",
+  "version": "1.0.0",
+  "description": "Rutgers Coding Bootcamp - MySQL Module Homework - Full Stack App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crsbcn/MySQL-Full-Stack-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crsbcn/MySQL-Full-Stack-App/issues"
+  },
+  "homepage": "https://github.com/crsbcn/MySQL-Full-Stack-App#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "mysql": "^2.15.0"
+  }
+}
