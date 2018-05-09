@@ -2,7 +2,7 @@
   "name": "MySQL-Full-Stack-App",
   "version": "1.0.0",
   "description": "Rutgers Coding Bootcamp - MySQL Module Homework - Full Stack App",
-  "main": "index.js",
+  "main": "index.handlebars",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
