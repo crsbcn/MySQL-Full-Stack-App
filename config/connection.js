@@ -3,6 +3,7 @@ var mysql = require('mysql');
 
 // Create the MySQL connection object
 var connection;
+var PORT = process.env.PORT || 3000
 
 if (process.env.JAWSDB_URL) {
 	// DB is JawsDB on Heroku
@@ -13,9 +14,9 @@ if (process.env.JAWSDB_URL) {
 		port: 8889,
 		host: 'localhost',
 		user: 'root',
-        password: 'root',
-        database: 'burgers_db',
-        socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
+    password: 'root',
+    database: 'burgers_db',
+    // socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
         
 	})
 };
@@ -26,7 +27,7 @@ connection.connect(function(err) {
     console.error('ERROR: MySQL connection error -- ' + err.stack + '\n\n');
     return;
   }
-  console.log('Connected to MySQL database as id ' + connection.threadId + '\n\n');
+  console.log("App running on port " + PORT + "!");;
 });
 
 // Export connection for ORM use
